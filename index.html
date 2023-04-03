@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel"> 
+        <!-- Indicators --> 
+        <ul class="carousel-indicators"> 
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li> 
+          <li data-target="#myCarousel" data-slide-to="1"></li> 
+          <li data-target="#myCarousel" data-slide-to="2"></li> 
+        </ul> 
+        <!-- The slideshow --> 
+        <div class="carousel-inner"> 
+          <div class="carousel-item active"> 
+            <img src="https://pilandina.com.bo/wp-content/uploads/2019/06/fondo-2004.jpg" alt="Pil andina 1" width="auto"  height= "auto"> 
+          </div> 
+          <div class="carousel-item"> 
+            <img src="https://pilandina.com.bo/wp-content/uploads/2019/06/fondo-2016.jpg" alt="Pil andina 2" width="auto" height="auto"> 
+          </div> 
+          <div class="carousel-item"> 
+            <img src="https://pilandina.com.bo/wp-content/uploads/2019/06/fondo-fuerza.jpg" alt="Pil andina 3" width="auto" height="auto"> 
+          </div> 
+          
+
+        </div> 
+        <!-- Left and right controls --> 
+        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev"> 
+          <span class="carousel-control-prev-icon"></span> 
+        </a> 
+        <a class="carousel-control-next" href="#myCarousel" data-slide="next"> 
+          <span class="carousel-control-next-icon"></span> 
+        </a> 
+      </div>
+      
+      
+
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0
+.0/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min
+.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/p
+opper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.
+min.js"></script>
+<head>
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand"><img src="https://pilandina.com.bo/wp-content/uploads/2019/04/logo_pil.png" alt="" ></a>
+        <a class="nav-link" href="#" style="color: white">Inicio<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="action.html" style="color: white">Quienes somos <style>
+            /* Estilos para la etiqueta a */
+            a {
+              color: blue;
+              text-decoration: none;
+              transition: color 0.3s ease-in-out;
+            }
+            
+            /* Estilos para la etiqueta a cuando el ratón está encima */
+            a:hover {
+              color: red;
+              animation-name: colorChange;
+              animation-duration: 1s;
+              animation-fill-mode: forwards;
+            }
+          
+            /* Definición de la animación */
+            @keyframes colorChange {
+              from { color: blue; }
+              to { color: red; }
+            }
+          </style></a>
+        <a class="nav-link disabled" href="#" style="color: white">Se me antoja</a>
+        <a class="nav-link disabled" href="#" style="color: white">Contactanos</a>
+
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white">
+            Productos
+          </a>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="$">Bebidas</a>
+          <a class="dropdown-item" href="#">Yogurt</a>
+          <a class="dropdown-item" href="#">Helados</a>
+          <a class="dropdown-item" href="#">Soyas</a>
+          <a class="dropdown-item" href="#">Quesos</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#" style="color: white">Mas productos</a>
+        </div>    
+    </li>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="color: white">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#" style="background-color: white">Inicio<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="action.html" style="color: white">Quienes somos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white">
+                Productos
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="$">Bebidas</a>
+                <a class="dropdown-item" href="#">Yogurt</a>
+                <a class="dropdown-item" href="#">Helados</a>
+                <a class="dropdown-item" href="#">Soyas</a>
+                <a class="dropdown-item" href="#">Quesos</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#" style="color: white">Mas productos</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" style="color: white">Se me antoja</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" style="color: white">Contactanos</a>
+              </li>
+          </ul>
+          <!-- Barra de busqueda -->
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pil Andina</title>
+
+</head>
+<body>
+    <button>
+    <div class="Imagen_body1">
+        <a href="action.html">
+        <img src="https://pilandina.com.bo/wp-content/uploads/2019/06/home-fondo-recetas.jpg" alt="Imagen de fondo" >
+        <div class="text" href="action.html">
+          <p>Texto centrado sobre la imagen</p>
+        </div>
+    </a>
+        </div>
+    </div>
+    </button>
+
+      
+    <button>
+        <a href="action.html">
+            <img src="https://pilandina.com.bo/wp-content/uploads/2019/06/btn_home_fondo_novedades.jpg" style="top: auto;">
+        </a>
+    </button>
+
+    
+</body>
+</html>
