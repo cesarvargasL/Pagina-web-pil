@@ -14,7 +14,7 @@
   }
 
   /* Estilos CSS para el botón */
-  .button {
+  .button1 {
     display: inline-block;
     padding: 10px 20px;
     background-color: #4CAF50;
@@ -28,6 +28,6 @@
   }
 
   /* Estilos CSS para el botón cuando se pasa el mouse sobre él */
-  .button:hover {
+  .button1:hover {
     background-color: #3e8e41;
   }
