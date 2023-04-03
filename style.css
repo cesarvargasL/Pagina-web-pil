@@ -1,33 +1,13 @@
 .Imagen_body1 {
     position: relative;
+    display: inline-block;
     text-align: center;
   }
-  .text {
+
+  .texto_centrado{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
-    font-size: 2em;
-    font-weight: bold;
-    text-shadow: 2px 2px 4px #000000;
-  }
-
-  /* Estilos CSS para el botón */
-  .button1 {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    border-radius: 8px;
-    border: none;
-    cursor: pointer;
-  }
-
-  /* Estilos CSS para el botón cuando se pasa el mouse sobre él */
-  .button1:hover {
-    background-color: #3e8e41;
-  }
+    
+}
