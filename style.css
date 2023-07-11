@@ -1,3 +1,21 @@
+.carousel-slide {
+  height: 30vw;
+}
+
+.carousel-inner {
+  height: 30vw;
+}
+
+.img-carousel-1 .img2-carousel-1 .img3-carousel-1{
+  width: 100%;
+  height: 30vw;
+}
+
+.navbar .navbar-dark .bg-dark {
+  padding: 200px;
+  background-color: aqua;
+}
+
 .Imagen_body1 {
     position: relative;
     display: inline-block;
