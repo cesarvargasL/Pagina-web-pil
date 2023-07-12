@@ -1,31 +1,51 @@
-.carousel-slide {
-  height: 30vw;
+body {
+  font-family: 'Verdana', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.carousel-inner {
-  height: 30vw;
+/* STYLES OF THE CAROUSEL*/
+/* For carousel height image*/
+.d-block{
+  height: 32vw;
 }
 
-.img-carousel-1 .img2-carousel-1 .img3-carousel-1{
-  width: 100%;
-  height: 30vw;
+/* STYLES OF THE NAVBAR INDEX */
+.image-nav-index {
+  height: 3vw;
+  border-radius: 100%;
 }
 
-.navbar .navbar-dark .bg-dark {
-  padding: 200px;
-  background-color: aqua;
+.container-fluid {
+  background-color: rgb(2, 2, 56);
 }
 
-.Imagen_body1 {
-    position: relative;
-    display: inline-block;
-    text-align: center;
-  }
+.container-fluid h3 {
+  color: white;
+}
 
-  .texto_centrado{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
+.container-fluid a{
+  color: white;
+}
+
+.navbar-nav > li > a.nav-link:hover {
+  color: yellow;
+}
+
+.dropdown-menu li{
+  border-color: rgb(2, 2, 56);
+  background-color: rgb(2, 2, 56);
+  color: red;
+  text-decoration: red;
+  color-scheme: rgb(2, 2, 56) ;
+}
+.dropdown-menu a{
+  border-color: rgb(2, 2, 56);
+  background-color: rgb(2, 2, 56);
+  color-scheme: rgb(2, 2, 56) ;
+}
+
+.dropdown-menu > li > a.dropdown-item:hover {
+  border-color: rgb(2, 2, 56);
+  background-color: rgb(2, 2, 56);
+  color-scheme: rgb(2, 2, 56) ;
+  color: yellow;
 }
